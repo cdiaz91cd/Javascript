@@ -1,0 +1,91 @@
+body{
+	margin: 0;
+}
+
+
+.main-container{
+	width: 1200px;
+	background-image: url('comida.png');
+	margin: auto;
+	margin-top: 30px;
+	height: 1000px;
+
+}
+
+#buscador{
+	margin: 50px;
+	text-align: center;
+
+}
+
+.input-buscador{
+	width: 250px;
+	height: 20px;
+	margin-top: 20px;
+}
+
+#boton{
+	background-color: white;
+	height: 25px;
+	margin: 20px;
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+	color: #FF4861;
+
+}
+
+.recetas{
+	text-align: center;
+	font-family: 'Slabo 13px', serif;
+	background-color: white;
+	height: 50px;
+}
+
+.nombres-recetas{
+	margin: 30px;
+	background-color: white;
+	opacity: 0.9;
+	text-align: left;
+}
+
+.titulo{
+	margin: 30px;
+	padding: 15px;
+	font-family: 'Rubik', sans-serif;
+}
+
+
+.textinput{
+	margin: 30px;
+	width: 200px;
+	height: 25px;
+
+}
+
+.precioinput{
+	margin: 30px;
+	width: 200px;
+	height: 25px;
+}
+
+#botonMas{
+	margin-left: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.botonMas1{
+	padding: 20px;
+}
+
+
+
+.botones{
+	margin: 50px;
+}
+
+.text-input-nuevo{
+	display: flex;
+	margin: 15px;
+
+}

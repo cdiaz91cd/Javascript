@@ -1,0 +1,66 @@
+body{
+
+	margin: 0;
+	background-color: white;
+}
+
+.container-principal{
+	width: 1024;
+	height: 500px;
+	text-align: center;
+	background-image: url("fondito.png");
+}
+
+
+.input{
+	
+	width: 300px;
+	height: 50px;
+	overflow: hidden;
+	margin: 20px;
+}
+
+.caritas{
+	position: relative;
+	right: 100px;
+	background-color: #EBDC29;
+	width: 55px;
+	height: 25px;
+	border: 2px;
+}
+
+.boton{
+	width: 100px;
+	height: 50px;
+	background-color: silver;
+
+}
+
+
+.list{
+	height: 500px;
+	width: 50%;
+	margin-top: 20px;
+	text-align: center;
+	margin: auto;
+}
+
+
+.publication-container {
+  display: flex;
+  height: 50px;
+  border: 2px solid #333;
+  align-items: center;
+  margin-top: 20px;
+  background-color: white;
+  font-family: 'Roboto Mono', monospace;
+  padding: 10px;
+}
+
+
+.publication-container div {
+  width: 50%;
+  text-align: center;
+}
+
+

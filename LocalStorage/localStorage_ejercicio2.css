@@ -1,0 +1,68 @@
+body{
+	
+	margin: 0;
+
+}
+
+.container-principal{
+	display: flex;
+}
+
+.producto{
+
+}
+
+.fotoP{
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+}
+
+.nombreP{
+	font-family: 'Overpass Mono', monospace;
+}
+
+
+.descriptionP{
+	font-family: 'Overpass Mono', monospace;
+	color: #FFC300;
+
+}
+
+.precioP{
+	font-family: 'Overpass Mono', monospace;
+
+}
+
+p{
+	margin: 20px;
+	font-family: 'Overpass Mono', monospace;
+}
+
+
+.lateralIzquierda{
+
+	width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.lateralDerecha{
+	width: 25%;
+	background-color: #11C795;
+
+}
+
+
+.imagenes{
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+}
+
+.lista-producto{
+	margin:20px;
+}
+

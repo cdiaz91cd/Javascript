@@ -1,0 +1,103 @@
+body
+	margin: 0;
+}
+
+.producto{
+
+}
+
+.container-principal {
+	display: flex;
+}
+
+.lateralIzquierda{
+
+    width: 25%;
+	background-color: #11C795;
+
+}
+
+.lateralDerecha{
+	width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+.imagenes{
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	background-color: pink;
+}
+
+.clase-logo{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.logo-texto{
+	font-size: 20px;
+	font-family: 'Short Stack', cursive;
+}
+
+.logo{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+
+p{
+	margin: 10px;
+	
+}
+
+.comprar{
+	margin: 10px;
+	
+}
+
+.marca{
+	font-family: 'Overpass Mono', monospace;
+	margin: 15px;
+}
+
+.macetas{
+	font-family: 'Overpass Mono', monospace;
+	margin: 15px;
+}
+
+.pagar{
+	margin: 15px;
+	width: 100px;
+	height: 30px;
+
+}
+
+.nombreProducto{
+	font-family: 'Overpass Mono', monospace;
+}
+
+.description{
+	font-family: 'Overpass Mono', monospace;
+	color: #FFC300;
+}
+
+.precio{
+	font-family: 'Overpass Mono', monospace;
+}
+
+.marca-texto{
+	font-size: 18px;
+	color: white;
+
+}
+
+.categoria-texto{
+	font-size: 18px;
+	color: white;
+
+}

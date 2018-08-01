@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recetas</title>
+	<link rel="stylesheet" type="text/css" href="ejercicio_recetas.css">
+	<link href="https://fonts.googleapis.com/css?family=Rubik|Slabo+13px" rel="stylesheet">
+</head>
+<body>
+
+<div class="main-container">
+	<div class="contenido">
+	<div id="buscador">
+		<input class="input-buscador" type="text" name="" value="">
+		<button onclick="search()" id="boton">Buscar</button>
+	</div>
+
+	<div id="content">
+		<div class="recetas">
+			<h1>Recetas</h1>
+		</div>
+	</div>
+	<div class="nombres-recetas">
+		<p class="titulo">Título</p>
+		<input class="textinput" type="text" name="" value="">
+		<p class="titulo">Precio</p>
+		<input class="precioinput" type="text" name="" value="">
+		<p class="titulo">Ingredientes</p>
+	<div class="botonMas1">
+		<button id="botonMas">+</button>
+	</div>
+		<div id="input-nuevo">
+		</div>
+
+	</div>
+	<div class="botones">
+		<button onclick="guardarReceta()" class="botonGuardar">Guardar</button>
+		<button onclick= "limpiar()" class="botonLimpiar">Limpiar</button>	
+	</div>
+
+	<div class="receta-new">
+	</div>
+
+</div>
+	<div class="contenido-recetas">
+		</div>
+	<script
+ src="https://code.jquery.com/jquery-3.3.1.min.js"
+ crossorigin="anonymous"></script>
+    <script src="ejercicio_recetas.js"></script>
+</body>
+</html>
+
+
+<!--
+
+
+<ul>
+			<li class="list">Torta de chocolate</li><button class="agregar">+</button>
+			<li class="list">Galletitas de limón</li><button class="agregar">+</button>
+			<li class="list">Budín de naranja</li><button class="agregar">+</button>
+			<li class="list">Muffin con dulce de leche</li><button class="agregar">+</button>
+			<li class="list">Panqueques</li><button class="agregar">+</button>
+		</ul>
+
+
+		-->
