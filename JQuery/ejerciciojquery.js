@@ -1,42 +1,42 @@
 
 
 
-let numero= 0;
-var body= document.querySelector('body');
+let numero = 0;
+var body = document.querySelector('body');
 
-$(document).on('click', '.suma' , function() { 
- 
-	numero = numero+1;
-	$("p").html(numero) //.html es a las P ponele el contenido numero 
-	if (numero > 10){
+$(document).on('click', '.suma', function () {
+
+	numero = numero + 1;
+	$("p").html(numero) 
+	if (numero > 10) {
 		$(".caja").addClass("color-distinto");
-				console.log('YAY');
+		console.log('YAY');
 	}
 
-	if(numero> -10){
+	if (numero > -10) {
 		$('.pum').hide()
 	}
 
-	})
+})
 
-$(document).on('click', '.resta' , function() { 
- 
-	numero = numero-1;
-	$("p").html(numero) //.html es a las P ponele el contenido numero 
-	if (numero < 0){
+$(document).on('click', '.resta', function () {
+
+	numero = numero - 1;
+	$("p").html(numero)
+	if (numero < 0) {
 		$(".caja").addClass("color-distinto2");
 		console.log('EXPLOTÓ TODO');
 	}
 
-	if(numero <= -10){
-	$('.pum').show()
+	if (numero <= -10) {
+		$('.pum').show()
 
 	}
-	})
+})
 
- 
 
- 
+
+
 
 /*
 

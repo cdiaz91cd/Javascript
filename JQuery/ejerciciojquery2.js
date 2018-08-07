@@ -13,24 +13,3 @@ function agregar() {
 }
 
 console.log(agregar());
-
-/*
-$(document).on('click', 'ul button' , function() {
-  console.log(123)
-  const index = $('ul button').index(this)
-
-  console.log(index)
-  $('ul li')[index].remove()
-  $('ul button')[index].remove()
-
-});
-
-
-
-
-const index= $('il input').index(this)// de il input traeme el indice de eso 
-
-
-
-
-*/

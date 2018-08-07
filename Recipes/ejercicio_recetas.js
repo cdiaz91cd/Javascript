@@ -1,19 +1,19 @@
 
 
 
-$('#botonMas').on('click', function() {
+$('#botonMas').on('click', function () {
 	$('#input-nuevo').append('<input class="text-input-nuevo" type="text" name="" value="">')
 })
 
 
-let recetas=[];
+let recetas = [];
 
 
-function guardarReceta(){
-	var newIngredientsReceta=[];
-	$('.text-input-nuevo').each(function(){//por cada elemento text-input-nuevo hacele la funcion, funciona como un for.
-			var nuevosIngredientes = $(this).val()
-			newIngredientsReceta.push(nuevosIngredientes);
+function guardarReceta() {
+	var newIngredientsReceta = [];
+	$('.text-input-nuevo').each(function () {
+		var nuevosIngredientes = $(this).val()
+		newIngredientsReceta.push(nuevosIngredientes);
 
 	})
 
@@ -33,16 +33,16 @@ function guardarReceta(){
 
 
 
-function search(){
-	for(var i=0; i <recetas.lenght; i++){
-		if ($('.input-buscador').val()==$('.textinput').val()){
+function search() {
+	for (var i = 0; i < recetas.lenght; i++) {
+		if ($('.input-buscador').val() == $('.textinput').val()) {
 			$('.contenido').hide()
 
-			let titulo= recetas[i].titulo;//'<h2>' + $('.textinput').val() + '</h2>';
-			let precio= recetas[i].precio//$('.precioinput').val();
-			let ingre= recetas[i].ingredientes;
+			let titulo = recetas[i].titulo;
+			let precio = recetas[i].precio
+			let ingre = recetas[i].ingredientes;
 
-			let ponerIngre= '<p>' + ingre + '</p>'
+			let ponerIngre = '<p>' + ingre + '</p>'
 
 			$('contenido-recetas').append(titulo)
 			$('contenido-recetas').append(precio)
@@ -50,20 +50,20 @@ function search(){
 
 
 
-		} else{
+		} else {
 			$('.contenido').hide()
-			let noExiste= 'No existe la receta';
+			let noExiste = 'No existe la receta';
 			$('.contenido-recetas').append(noExiste)
-			//console.log('no existe la receta');
+			
 		}
-		}
-
 	}
+
+}
 
 
 console.log($('.input-buscador'));
 
-function limpiar(){
+function limpiar() {
 	$('.textinput').val('')
 	$('.precioinput').val('')
 	$('.text-input-nuevo').val('')
