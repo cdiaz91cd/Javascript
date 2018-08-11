@@ -1,6 +1,5 @@
 
 
-
 $('#botonMas').on('click', function () {
 	$('#input-nuevo').append('<input class="text-input-nuevo" type="text" name="" value="">')
 })
@@ -22,18 +21,17 @@ function guardarReceta() {
 		titulo: $('.textinput').val(),
 		precio: $('.precioinput').val(),
 		ingredientes: newIngredientsReceta
-
-
 	})
+	console.log(recetas)
 
 	console.log(newIngredientsReceta);
-	console.log(recetas);
 }
 
-
+console.log(recetas)
 
 
 function search() {
+	console.log(recetas);
 	for (var i = 0; i < recetas.lenght; i++) {
 		if ($('.input-buscador').val() == $('.textinput').val()) {
 			$('.contenido').hide()

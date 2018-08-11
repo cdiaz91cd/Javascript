@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+
+.container-principal{
+    width: 1280px;
+    margin: 20px;
+    margin: auto;
+    padding: 20px;
+}
+
+.nombre{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.biografia{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.following{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.followers{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.repos{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.followers-title{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #ff6666;
+}
+
+.repos-title{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #ff6666;
+}
+
+.following-title{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #ff6666;
+}
+
+.botonRepos{
+    background-color: #ff6666;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+}
+
+.textoRepos{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #ff6666;
+    margin: 20px;
+    background-color: white;
+    width: 600px;
+    padding:15px
+}
+
+.image{
+    width: 300px;
+    height: auto;
+}

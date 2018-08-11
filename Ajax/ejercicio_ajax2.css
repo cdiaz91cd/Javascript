@@ -1,0 +1,25 @@
+.main-container{
+    width: 1280px;
+    margin: auto;
+    background-color: rgb(40, 139, 231);
+    padding: 20px;
+}
+
+.title-post{
+    font-size:2vw;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.body-post{
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    color: black;
+    background-color: white;
+    width: 1200px;
+    margin: 10px;
+    padding: 10px;
+}

@@ -11,10 +11,7 @@ function add() {
 
 
 $(document).on('click', 'ul button', function () {
-  console.log(123)
   const index = $('ul button').index(this)
-
-  console.log(index)
   $('ul li')[index].remove()
   $('ul button')[index].remove()
 
@@ -22,7 +19,6 @@ $(document).on('click', 'ul button', function () {
 
 
 $('#action').on('keypress', function (e) {
-  console.log(e.keyCode)
   if (e.keyCode == 13) {
     add()
   }

@@ -1,0 +1,22 @@
+.main-container{
+    width: 1280px;
+    margin: 30px;
+}
+
+#list{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+#add-action{
+    background-color: #6666ff;
+    color: white;
+    width: 50px;
+    font-size: 14px;
+}
+
+button{
+    background-color:  #6666ff;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+}

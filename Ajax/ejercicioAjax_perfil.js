@@ -12,7 +12,7 @@ $.ajax({
 	$('.biografia').html(a.bio);
 	$('.following').html(a.following);
 	$('.followers').html(a.followers);
-	$('.respos').html('<a href=' + a.html_url + '?tab=repositories' + '>' + a.public_repos + '</a>');
+	$('.repos').html('<a href=' + a.html_url + '?tab=repositories' + '>' + a.public_repos + '</a>');
 })
 
 
@@ -30,8 +30,9 @@ $('.botonRepos').on('click', function () {
 				+ nombreRepo + nombreAutor + descrip + '</div>');
 
 		}
-		var urlRepo = 'https://github.com/cdiaz91cd/adatest'
-	}) $('namerepo').html('<a href=' + urlRepo + '>' + '</a>')
+	})
+	var urlRepo = 'https://github.com/cdiaz91cd/adatest'
+	$('.namerepo').html('<a href=' + urlRepo + '>' + '</a>')
 
 })
 

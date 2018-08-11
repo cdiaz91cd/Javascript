@@ -30,22 +30,3 @@ $('.producto').on('click', function () {
 
 	localStorage.setItem('productos', JSON.stringify(arr));
 });
-
-console.log(arr);
-
-
-
-
-
-
-const long = $('.producto').length;
-
-$('.check').click(function () {
-	let checkbox = $('input[type=checkbox]:checked');
-
-
-	for (var i = 0; i < long; i++) {
-
-		if ($('.producto').eq(i).data('marca') == $().val())
-
-});
